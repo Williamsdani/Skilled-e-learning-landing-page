@@ -1,0 +1,26 @@
+html {
+    display: block;
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+    height: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition-property: hsl(0, 0%, 90%);
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+img {
+    width: 499px;
+    /* aspect-ratio: auto 499 / 640; */
+    height: 640px;
+}
